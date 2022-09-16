@@ -1,4 +1,4 @@
-;-------cerner_2tothe5th_2022---------
+;cerner_2tothe5th_2022
 drop program palindrome go
 create program palindrome
 prompt 
