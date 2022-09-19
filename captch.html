@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <script>
+    var captcha;
+    document.getElementById("").value = captcha;
+    function generateCaptcha() {
+      captcha = Math.floor(Math.random() * 1000000);
+      document.getElementById("captcha").value = captcha;
+    }
+  </script>
+  <body>
+    <input type="text" id="captcha" disabled /><br /><br />
+    <button onclick="generateCaptcha()">Refresh</button>
+  </body>
+</html>
+<!-- cerner_2tothe5th_2022 -->
